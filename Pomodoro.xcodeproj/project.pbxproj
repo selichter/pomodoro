@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2C480224F2F314003BE135 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C480124F2F314003BE135 /* ButtonModifiers.swift */; };
+		DF2C480324F2F314003BE135 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C480124F2F314003BE135 /* ButtonModifiers.swift */; };
 		DF30A46D24EF480000635B01 /* TestsIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A46C24EF480000635B01 /* TestsIOS.swift */; };
 		DF30A47824EF480000635B01 /* TestsMacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A47724EF480000635B01 /* TestsMacOS.swift */; };
 		DF30A47A24EF480000635B01 /* PomodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A45124EF47FE00635B01 /* PomodoroApp.swift */; };
@@ -40,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF2C480124F2F314003BE135 /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
 		DF30A45124EF47FE00635B01 /* PomodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroApp.swift; sourceTree = "<group>"; };
 		DF30A45224EF47FE00635B01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF30A45324EF480000635B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +114,7 @@
 				DF30A49124EF59EC00635B01 /* TimerView.swift */,
 				DF30A45324EF480000635B01 /* Assets.xcassets */,
 				DF30A49424EF630400635B01 /* Colors.swift */,
+				DF2C480124F2F314003BE135 /* ButtonModifiers.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -326,6 +330,7 @@
 			files = (
 				DF30A49224EF59EC00635B01 /* TimerView.swift in Sources */,
 				DF30A49524EF630400635B01 /* Colors.swift in Sources */,
+				DF2C480224F2F314003BE135 /* ButtonModifiers.swift in Sources */,
 				DF30A47C24EF480000635B01 /* ContentView.swift in Sources */,
 				DF30A47A24EF480000635B01 /* PomodoroApp.swift in Sources */,
 			);
@@ -337,6 +342,7 @@
 			files = (
 				DF30A49324EF59EC00635B01 /* TimerView.swift in Sources */,
 				DF30A49624EF630400635B01 /* Colors.swift in Sources */,
+				DF2C480324F2F314003BE135 /* ButtonModifiers.swift in Sources */,
 				DF30A47D24EF480000635B01 /* ContentView.swift in Sources */,
 				DF30A47B24EF480000635B01 /* PomodoroApp.swift in Sources */,
 			);
