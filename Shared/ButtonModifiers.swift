@@ -9,7 +9,8 @@ import SwiftUI
 
 struct PrimaryButtonModifier: ViewModifier {
     func body(content: Content) -> some View {
-        content                    .foregroundColor(pomBlue)
+        content
+            .foregroundColor(pomBlue)
             .background(pomGray)
             .cornerRadius(5.0)
             .padding()

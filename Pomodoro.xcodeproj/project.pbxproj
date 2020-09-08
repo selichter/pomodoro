@@ -9,8 +9,18 @@
 /* Begin PBXBuildFile section */
 		DF2C480224F2F314003BE135 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C480124F2F314003BE135 /* ButtonModifiers.swift */; };
 		DF2C480324F2F314003BE135 /* ButtonModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C480124F2F314003BE135 /* ButtonModifiers.swift */; };
+		DF2C480824F2F8A4003BE135 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C480724F2F8A4003BE135 /* ClockView.swift */; };
+		DF2C480924F2F8A4003BE135 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C480724F2F8A4003BE135 /* ClockView.swift */; };
+		DF2C480C24F2FC95003BE135 /* ProgressTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C480B24F2FC95003BE135 /* ProgressTrack.swift */; };
+		DF2C480D24F2FC95003BE135 /* ProgressTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C480B24F2FC95003BE135 /* ProgressTrack.swift */; };
+		DF2C480F24F2FE90003BE135 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C480E24F2FE90003BE135 /* CountdownView.swift */; };
+		DF2C481024F2FE90003BE135 /* CountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C480E24F2FE90003BE135 /* CountdownView.swift */; };
+		DF2C481224F31AB6003BE135 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C481124F31AB6003BE135 /* TimerViewModel.swift */; };
+		DF2C481324F31AB6003BE135 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C481124F31AB6003BE135 /* TimerViewModel.swift */; };
+		DF2C481B24F31BDD003BE135 /* PomodoroMacUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C481A24F31BDD003BE135 /* PomodoroMacUnitTests.swift */; };
+		DF2C486924F34458003BE135 /* TestsMacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A47724EF480000635B01 /* TestsMacOS.swift */; };
+		DF2C486A24F3445A003BE135 /* TimerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C482224F3221B003BE135 /* TimerViewModelTests.swift */; };
 		DF30A46D24EF480000635B01 /* TestsIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A46C24EF480000635B01 /* TestsIOS.swift */; };
-		DF30A47824EF480000635B01 /* TestsMacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A47724EF480000635B01 /* TestsMacOS.swift */; };
 		DF30A47A24EF480000635B01 /* PomodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A45124EF47FE00635B01 /* PomodoroApp.swift */; };
 		DF30A47B24EF480000635B01 /* PomodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A45124EF47FE00635B01 /* PomodoroApp.swift */; };
 		DF30A47C24EF480000635B01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A45224EF47FE00635B01 /* ContentView.swift */; };
@@ -25,6 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		DF2C481D24F31BDD003BE135 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF30A44C24EF47FE00635B01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF30A45F24EF480000635B01;
+			remoteInfo = "Pomodoro (macOS)";
+		};
 		DF30A46924EF480000635B01 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DF30A44C24EF47FE00635B01 /* Project object */;
@@ -43,6 +60,14 @@
 
 /* Begin PBXFileReference section */
 		DF2C480124F2F314003BE135 /* ButtonModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifiers.swift; sourceTree = "<group>"; };
+		DF2C480724F2F8A4003BE135 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		DF2C480B24F2FC95003BE135 /* ProgressTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTrack.swift; sourceTree = "<group>"; };
+		DF2C480E24F2FE90003BE135 /* CountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownView.swift; sourceTree = "<group>"; };
+		DF2C481124F31AB6003BE135 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		DF2C481824F31BDD003BE135 /* PomodoroMacUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PomodoroMacUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2C481A24F31BDD003BE135 /* PomodoroMacUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroMacUnitTests.swift; sourceTree = "<group>"; };
+		DF2C481C24F31BDD003BE135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2C482224F3221B003BE135 /* TimerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModelTests.swift; sourceTree = "<group>"; };
 		DF30A45124EF47FE00635B01 /* PomodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroApp.swift; sourceTree = "<group>"; };
 		DF30A45224EF47FE00635B01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DF30A45324EF480000635B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +87,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DF2C481524F31BDD003BE135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF30A45524EF480000635B01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,6 +126,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF2C480A24F2FC7F003BE135 /* spike */ = {
+			isa = PBXGroup;
+			children = (
+				DF2C480724F2F8A4003BE135 /* ClockView.swift */,
+				DF2C480B24F2FC95003BE135 /* ProgressTrack.swift */,
+				DF2C480E24F2FE90003BE135 /* CountdownView.swift */,
+			);
+			path = spike;
+			sourceTree = "<group>";
+		};
+		DF2C481924F31BDD003BE135 /* PomodoroMacUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF2C482224F3221B003BE135 /* TimerViewModelTests.swift */,
+				DF2C481A24F31BDD003BE135 /* PomodoroMacUnitTests.swift */,
+				DF2C481C24F31BDD003BE135 /* Info.plist */,
+			);
+			path = PomodoroMacUnitTests;
+			sourceTree = "<group>";
+		};
 		DF30A44B24EF47FE00635B01 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +154,7 @@
 				DF30A46124EF480000635B01 /* macOS */,
 				DF30A46B24EF480000635B01 /* Tests iOS */,
 				DF30A47624EF480000635B01 /* Tests macOS */,
+				DF2C481924F31BDD003BE135 /* PomodoroMacUnitTests */,
 				DF30A45924EF480000635B01 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +168,8 @@
 				DF30A45324EF480000635B01 /* Assets.xcassets */,
 				DF30A49424EF630400635B01 /* Colors.swift */,
 				DF2C480124F2F314003BE135 /* ButtonModifiers.swift */,
+				DF2C480A24F2FC7F003BE135 /* spike */,
+				DF2C481124F31AB6003BE135 /* TimerViewModel.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -126,6 +181,7 @@
 				DF30A46024EF480000635B01 /* Pomodoro.app */,
 				DF30A46824EF480000635B01 /* Tests iOS.xctest */,
 				DF30A47324EF480000635B01 /* Tests macOS.xctest */,
+				DF2C481824F31BDD003BE135 /* PomodoroMacUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +224,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DF2C481724F31BDD003BE135 /* PomodoroMacUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2C481F24F31BDD003BE135 /* Build configuration list for PBXNativeTarget "PomodoroMacUnitTests" */;
+			buildPhases = (
+				DF2C481424F31BDD003BE135 /* Sources */,
+				DF2C481524F31BDD003BE135 /* Frameworks */,
+				DF2C481624F31BDD003BE135 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2C481E24F31BDD003BE135 /* PBXTargetDependency */,
+			);
+			name = PomodoroMacUnitTests;
+			productName = PomodoroMacUnitTests;
+			productReference = DF2C481824F31BDD003BE135 /* PomodoroMacUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		DF30A45724EF480000635B01 /* Pomodoro (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF30A48224EF480000635B01 /* Build configuration list for PBXNativeTarget "Pomodoro (iOS)" */;
@@ -250,6 +324,10 @@
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					DF2C481724F31BDD003BE135 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = DF30A45F24EF480000635B01;
+					};
 					DF30A45724EF480000635B01 = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -286,11 +364,19 @@
 				DF30A45F24EF480000635B01 /* Pomodoro (macOS) */,
 				DF30A46724EF480000635B01 /* Tests iOS */,
 				DF30A47224EF480000635B01 /* Tests macOS */,
+				DF2C481724F31BDD003BE135 /* PomodoroMacUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DF2C481624F31BDD003BE135 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF30A45624EF480000635B01 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,11 +410,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DF2C481424F31BDD003BE135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2C486A24F3445A003BE135 /* TimerViewModelTests.swift in Sources */,
+				DF2C481B24F31BDD003BE135 /* PomodoroMacUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DF30A45424EF480000635B01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DF30A49224EF59EC00635B01 /* TimerView.swift in Sources */,
+				DF2C481224F31AB6003BE135 /* TimerViewModel.swift in Sources */,
+				DF2C480824F2F8A4003BE135 /* ClockView.swift in Sources */,
+				DF2C480F24F2FE90003BE135 /* CountdownView.swift in Sources */,
+				DF2C480C24F2FC95003BE135 /* ProgressTrack.swift in Sources */,
 				DF30A49524EF630400635B01 /* Colors.swift in Sources */,
 				DF2C480224F2F314003BE135 /* ButtonModifiers.swift in Sources */,
 				DF30A47C24EF480000635B01 /* ContentView.swift in Sources */,
@@ -341,6 +440,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF30A49324EF59EC00635B01 /* TimerView.swift in Sources */,
+				DF2C481324F31AB6003BE135 /* TimerViewModel.swift in Sources */,
+				DF2C480924F2F8A4003BE135 /* ClockView.swift in Sources */,
+				DF2C481024F2FE90003BE135 /* CountdownView.swift in Sources */,
+				DF2C480D24F2FC95003BE135 /* ProgressTrack.swift in Sources */,
 				DF30A49624EF630400635B01 /* Colors.swift in Sources */,
 				DF2C480324F2F314003BE135 /* ButtonModifiers.swift in Sources */,
 				DF30A47D24EF480000635B01 /* ContentView.swift in Sources */,
@@ -360,13 +463,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF30A47824EF480000635B01 /* TestsMacOS.swift in Sources */,
+				DF2C486924F34458003BE135 /* TestsMacOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		DF2C481E24F31BDD003BE135 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF30A45F24EF480000635B01 /* Pomodoro (macOS) */;
+			targetProxy = DF2C481D24F31BDD003BE135 /* PBXContainerItemProxy */;
+		};
 		DF30A46A24EF480000635B01 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DF30A45724EF480000635B01 /* Pomodoro (iOS) */;
@@ -380,6 +488,50 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		DF2C482024F31BDD003BE135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				INFOPLIST_FILE = PomodoroMacUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.PomodoroMacUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomodoro.app/Contents/MacOS/Pomodoro";
+			};
+			name = Debug;
+		};
+		DF2C482124F31BDD003BE135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				INFOPLIST_FILE = PomodoroMacUnitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.PomodoroMacUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pomodoro.app/Contents/MacOS/Pomodoro";
+			};
+			name = Release;
+		};
 		DF30A48024EF480000635B01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -676,6 +828,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DF2C481F24F31BDD003BE135 /* Build configuration list for PBXNativeTarget "PomodoroMacUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2C482024F31BDD003BE135 /* Debug */,
+				DF2C482124F31BDD003BE135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DF30A44F24EF47FE00635B01 /* Build configuration list for PBXProject "Pomodoro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
